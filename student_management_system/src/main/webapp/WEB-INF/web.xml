@@ -1,0 +1,23 @@
+
+	<web-app id="WebApp_ID">
+		<display-name>student_management_system</display-name>
+		<servlet>
+			<description>
+			</description>
+			<display-name>Delete_Student_Servlet</display-name>
+			<servlet-name>Delete_Student_Servlet</servlet-name>
+			<servlet-class>Servlets.Delete_Student_Servlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>Delete_Student_Servlet</servlet-name>
+			<url-pattern>/Delete_Student_Servlet</url-pattern>
+		</servlet-mapping>
+		<welcome-file-list>
+			<welcome-file>index.html</welcome-file>
+			<welcome-file>index.htm</welcome-file>
+			<welcome-file>index.jsp</welcome-file>
+			<welcome-file>default.html</welcome-file>
+			<welcome-file>default.htm</welcome-file>
+			<welcome-file>default.jsp</welcome-file>
+		</welcome-file-list>
+	</web-app>
